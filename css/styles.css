@@ -1,5 +1,6 @@
 @import "./navbar.css";
 @import "./reset.css";
+@import "./header.css";
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;700&display=swap");
 
 /* Global Styling */
@@ -22,4 +23,12 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+button.btn {
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
