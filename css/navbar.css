@@ -1,0 +1,99 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  background: #fff;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 9vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+}
+
+.nav .toggle-collapse {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  cursor: pointer;
+  display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.collapse {
+  height: 30rem;
+}
+
+.nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  display: block;
+  color: #333;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.nav .nav-items .nav-link a {
+  color: #333;
+}
+
+.nav .nav-items .nav-link:hover {
+  background: #333;
+}
+
+.nav .nav-items .nav-link:hover a {
+  color: #fff;
+}
+
+.nav .social {
+  padding: 1.4rem 0;
+}
+
+.nav .social i {
+  padding: 0 0.2rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.nav .social i:hover {
+  color: lightblue;
+}
+
+/* On a tablet */
+
+@media only screen and (max-width: 768px) {
+  .nav .nav-menu,
+  .nav .nav-items {
+    flex-direction: column;
+  }
+
+  .nav .toggle-collapse {
+    display: initial;
+  }
+}
+
+/* On a smartphone */

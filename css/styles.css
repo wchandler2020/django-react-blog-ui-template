@@ -1,0 +1,25 @@
+@import "./navbar.css";
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;700&display=swap");
+
+/* Global Styling */
+html,
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Livvic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
