@@ -1,6 +1,9 @@
 @import "./navbar.css";
 @import "./reset.css";
 @import "./header.css";
+@import "./carousel.css";
+@import "./side_content.css";
+@import "./aside-content.css";
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;700&display=swap");
 
 /* Global Styling */
@@ -8,6 +11,7 @@ html,
 body {
   box-sizing: border-box;
   overflow: hidden;
+  overflow-y: scroll;
   font-family: "Livvic", sans-serif;
 }
 
@@ -31,4 +35,23 @@ button.btn {
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.container {
+  margin: 0 5vw;
+}
+
+.text-grey {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.aside-heading {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
 }

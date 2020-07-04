@@ -1,0 +1,70 @@
+.blog {
+  background: url("../assets/abstract2.jpg");
+  background-repeat: no-repeat;
+  background-position: ceneter;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.blog-container {
+  margin: 0 5vw;
+}
+
+.blog .blog-post {
+  padding-top: 6rem;
+}
+
+.blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-content .blog-title {
+  padding: 2rem 0;
+}
+
+.blog-content .btn-blog {
+  padding: 0.7rem 2rem;
+  background: linear-gradient(
+    to right bottom,
+    #88b3f6,
+    #aac1f5,
+    #c6d0f4,
+    #dee0f3,
+    #f1f1f2
+  );
+  margin: 0.5rem;
+}
+
+.blog-content span {
+  display: block;
+}
+
+.blog-container .owl-nav {
+  position: absolute;
+  top: 10%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+  color: #666;
+  border: none;
+  font-size: 2rem;
+  background: transparent;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  outline: none;

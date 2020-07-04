@@ -1,0 +1,26 @@
+.site-content > .sidebar .category-list {
+  padding: 0 1rem;
+}
+.site-content > .sidebar .category-list .list-items {
+  background: linear-gradient(
+    to right bottom,
+    #88b3f6,
+    #aac1f5,
+    #c6d0f4,
+    #dee0f3,
+    #f1f1f2
+  );
+  padding: 0.4rem 1rem;
+  margin: 0.8rem 0;
+  border-radius: 3rem;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.site-content > .sidebar .category span {
+  float: right;
+}
+
+.site-content > .sidebar .category-list .list-items a {
+  color: #333;
+}
